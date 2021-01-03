@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Events</title>
+    <link rel="stylesheet" href="events.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <script src="./main.js"></script>
+</head>
+
+<body>
+    <header>
+        <div class="barcontainer" onclick="openNav()">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+        </div>
+        <div id="mySidebar" class="sidebar">
+            <a class="closebtn" onclick="closeNav()">×</a>
+            <a href="homepage.html">Home</a>
+            <a href="e-board.html">E-Board</a>
+            <a href="events.html">Events</a>
+            <a href="collaborations.html">Collborations</a>
+        </div>
+        <div id="wrapper">
+            <img src="images/eventsheading.png" id="eventsheading">
+            <img src="images/upcomingevents.png">
+            <hr>
+            <div class="calendar">
+                <img class="calendarpic" src="images/calendar.png">
+                <div class="texts">
+                    To stay up to date with all of our events make sure to subscribe to our google calendar
+                    and be the
+                    first to know and register!</div>
+            </div>
+            <hr>
+            <img src="images/pastevents.png">
+            <div class="timeline">
+                <div class="container left" data-aos="fade-up">
+                    <div class="content">
+                        <h2>AUG 2020- Game Night</h2>
+                        <p>An event full of exciting games such as scrabble and blah. Winner won a Starbucks gift card!
+                        </p>
+                    </div>
+                </div>
+                <div class="container right" data-aos="fade-up">
+                    <div class="content">
+                        <h2>SEP 2020- Class Exhange</h2>
+                        <p>An event where meet students could meet others taking the same classes as them and share &
+                            receive
+                            advice on CS classes. </p>
+                    </div>
+                </div>
+                <div class="container left" data-aos="fade-up">
+                    <div class="content">
+                        <h2>OCT 2020- Resume Crtitque Workshop w/ Bloomberg</h2>
+                        <p>Attendees heard from Bloomberg Software Engineers about how to best navigate the virtual
+                            recruiting
+                            world, learned what Engineers look for at Virtual Job Fairs and gained resume writing tips &
+                            advice.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="container right" data-aos="fade-up">
+                    <div class="content">
+                        <h2>OCT 2020- AI Workshop</h2>
+                        <p>Learned all about new upcoming AI topics with an interactive project and about opportunities
+                            in
+                            the
+                            current job market.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="container left" data-aos="fade-up">
+                    <div class="content">
+                        <h2>OCT 2020- Coffee, Code, & Cram</h2>
+                        <p> A night of studying and de-stressing with CS Connect.</p>
+                    </div>
+                </div>
+
+                <div class="container right" data-aos="fade-up">
+                    <div class="content">
+                        <h2>NOV 2020- Interview Workshop & Tech Panel w/ Liberty Mutual</h2>
+                        <p>Attendees were able to talk to recent graduates who entered the Tech World during a pandemic
+                            and
+                            sharpened their interviewing skills.</p>
+                    </div>
+                </div>
+
+                <div class="container left" data-aos="fade-up">
+                    <div class="content">
+                        <h2>NOV 2020- Game Development Workshop</h2>
+                        <p>A workshop centred around learning about shaders in Unity and followed by a mini project at
+                            the
+                            end.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+            <div class="suggestions">
+                <h2>Give us suggestions for events!</h2>
+                <input type="text" id="suggest" placeholder="Suggestion...">
+                <span onclick="addSuggestion()" class="enterBtn">Enter</span>
+            </div>
+        </div>
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+            AOS.init();
+        </script>
+    </header>
+</body>
+
+</html>

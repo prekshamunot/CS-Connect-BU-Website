@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>E-Board</title>
+    <link rel="stylesheet" href="e-board.css">
+    <script src="./main.js">
+    </script>
+</head>
+
+<body>
+    <div class="barcontainer" onclick="openNav()">
+        <div class="bar1"></div>
+        <div class="bar2"></div>
+        <div class="bar3"></div>
+    </div>
+    <div id="mySidebar" class="sidebar">
+        <a class="closebtn" onclick="closeNav()">×</a>
+        <a href="homepage.html">Home</a>
+        <a href="e-board.html">E-Board</a>
+        <a href="events.html">Events</a>
+        <a href="collaborations.html">Collaborations</a>
+    </div>
+    <div id="wrapper">
+        <img src="images/e-boardHeading.png" id="eboardheading">
+        <div class="row">
+            <div class="column">
+                <div class="card">
+                    <img src="images/divya.JPEG" alt="Divya" style="width:100%">
+                    <div class="container">
+                        <h2>Divya Gowravaram</h2>
+                        <p class="title">President</p>
+                        <p>Divya is currently a junior in CAS, studying Computer Science with a Mathematics minor. While
+                            serving as President in CS Connect BU, Divya is also a member of BU’s South-Asian a
+                            cappella group, BU Suno. She hopes to encourage and inspire girls to pursue tech
+                            opportunities in a male-dominated field.</p>
+                        <br>
+                        <br>
+                    </div>
+                </div>
+            </div>
+
+            <div class="column">
+                <div class="card">
+                    <img src="images/preksha.JPEG" alt="Preksha" style="width:100%">
+                    <div class="container">
+                        <h2>Preksha Munot</h2>
+                        <p class="title">Vice President</p>
+                        <p>Preksha is a junior in CAS majoring in Computer Science, from Andover, MA. While serving as
+                            the
+                            Vice President for CS Connect she is also involved in GWC and WiCS. As Vice President she
+                            hopes
+                            to bring people from all genders, backgrounds, and majors into CS Connect and create an
+                            innovative and thriving community of people passionate about tech. </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="column">
+                <div class="card">
+                    <img src="images/julie.JPEG" alt="Julie" style="width:100%">
+                    <div class="container">
+                        <h2>Julie Le</h2>
+                        <p class="title">Secretary</p>
+                        <p>Julie Le is a sophomore studying Computer Science and
+                            Biology, serving as Secretary for CS Connect BU. She lives in Boston but is originally from
+                            Vietnam. A fun fact about her is that she has
+                            done an official TED talk in high school! She plays soccer but loves watching basketball!
+                        </p>
+                        <br>
+                        <br>
+                    </div>
+                </div>
+            </div>
+
+            <div class="column">
+                <div class="card">
+                    <img src="images/scarlett.JPEG" alt="Scarlett" style="width:100%">
+                    <div class="container">
+                        <h2>Scarlett Li</h2>
+                        <p class="title">Director of Finance</p>
+                        <p>Scarlett Li is a sophomore majoring in Computer Science. She comes from China. She’s involved
+                            in
+                            Hack4Impact. She’s passionate about making her own games. She’s familiar with Unity, and a
+                            little
+                            bit of 3D modelling. In her free time, she loves playing video games (all types of RPGs,
+                            music
+                            games). Some of her other tags: electric music lover, musicals, digital illustration.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="column">
+                <div class="card">
+                    <img src="images/ayca.JPEG" alt="Acya" style="width:100%">
+                    <div class="container">
+                        <h2>Acya Bige Solmaz</h2>
+                        <p class="title">Event Coordinator</p>
+                        <p>Ayca (i-ch-a) is a sophomore studying Computer Science and Business Administration.
+                            She is from
+                            Istanbul, Turkey but was born in Hammond, Indiana. In her free time, she loves dancing and
+                            playing video games such as Zelda or Fortnite. Fun fact: She traveled Europe with a train at
+                            17
+                            and went to over 20+ cities. </p>
+                        <br>
+                    </div>
+                </div>
+            </div>
+
+            <div class="column">
+                <div class="card">
+                    <img src="images/karim.JPEG" alt="Karim" style="width:100%">
+                    <div class="container">
+                        <h2>Karim Benromdhane</h2>
+                        <p class="title">Director of Operations</p>
+                        <p>Karim is a sophomore studying mathematics and computer science. He is from Ridgefield Park,
+                            New
+                            Jersey. He is a transfer student and during his free time he love to go to museums, play
+                            video
+                            games with his friends, read, write, and experiment with music production. He is really
+                            engaged
+                            in the study of politics and economics. Fun fact: He wants to build his career in the
+                            intersection of technology and social science.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <button class="openBtn" onclick="openChat()">Chat with E-Board</button>
+        <div class="eBoardchat" id="eBoardchat">
+            <form class="formContainer">
+                <h3>Ask E-Board any questions you have!</h3>
+                <textarea placeholder="Type.."></textarea>
+                <button type="submit" class="sendBtn">Send</button>
+                <button type="button" class="closeBtn" onclick="closeChat()">Close</button>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
