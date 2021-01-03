@@ -1,1 +1,1 @@
-# CS-Connect-BU-Website
+# csconnectbu.github.io
